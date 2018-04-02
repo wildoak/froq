@@ -1,16 +1,13 @@
 {
-  "scripts": {
-    "test": "lerna run --parallel test",
-    "test:coverage": "lerna run --parallel test:coverage",
-    "build": "lerna run --parallel build",
-    "clean": "lerna run --parallel clean",
-    "rebuild": "$npm_execpath run clean  &&  $npm_execpath run build",
-    "prepublish": "$npm_execpath run rebuild  &&  $npm_execpath test",
-    "coverage": "lerna run coverage"
+  "name": "froq",
+  "version": "0.0.20",
+  "engines": {
+    "node": ">=6.10",
+    "npm": ">=3.10.10"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DaAitch/froq"
+    "url": "https://github.com/wildoak/froq"
   },
   "keywords": [
     "test",
@@ -19,8 +16,5 @@
   ],
   "author": "Philipp Renoth <renoth@wildoak.de>",
   "license": "MIT",
-  "description": "Integration Testing environment orchestration made easy.",
-  "devDependencies": {
-    "lerna": "^2.7.0"
-  }
+  "description": "Integration Testing environment orchestration made easy."
 }
