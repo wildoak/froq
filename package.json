@@ -1,6 +1,6 @@
 {
   "name": "froq",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "engines": {
     "node": ">=6.10",
     "npm": ">=3.10.10"
@@ -16,5 +16,9 @@
   ],
   "author": "Philipp Renoth <renoth@wildoak.de>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wildoak/froq/issues"
+  },
+  "homepage": "https://github.com/wildoak/froq#readme",
   "description": "Integration Testing environment orchestration made easy."
 }
